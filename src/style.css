@@ -1,0 +1,23 @@
+.logo {
+  height: 212px;
+  width: 254px;
+}
+
+.redes {
+  height: 50px;
+  width: 50px;
+}
+
+.portada {
+  height: 350px;
+  width: 1440px;
+}
+
+.palabra{
+text-align: center;
+   font-size: 40px;
+}
+
+.parrafo{
+    text-align: center;
+}
