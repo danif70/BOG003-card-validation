@@ -43,7 +43,7 @@ color: aliceblue;
   font-size: 47px;
   color: aliceblue;
 }
-.info{
+#info{
 display: inline-flex;
 margin: 2em;
 }
@@ -60,18 +60,92 @@ margin-left: 4rem;
 
 }
 .cursos{
-  margin: 1em;
+  margin: 0.5em;
+}
+#cabecera{
+  font-size: 4em;
+  text-align: center;
+  color: aliceblue;
+  background-color: rgba(5, 82, 76, 1);
 }
 #mision{
-  font-size: 30px;
+  font-size: 2em;
   text-align: center;
-  
+  color: aliceblue;
+  background-color:rgba(250, 121, 33, 1);
+  margin: 0 auto;
+  margin-bottom: 20px;
+  width: 60%;
+  height: 50%;
 }
 #seleccion{
-  display: flex;
+  display:flex;
   flex-direction: row;
   justify-content:space-around;
 
 }
+#compras{
+  display:flex;
+  flex-direction: row;
+  justify-content:space-around;
+}
+#comprar1{
+padding: 1em 3em;
+border-radius: 1em;
+background-color:rgba(229, 89, 52, 1) ;
+color: beige;
+font-weight: bold;
+}
+#comprar2{
+padding: 1em 3em;
+border-radius: 1em;
+background-color:rgba(229, 89, 52, 1) ;
+color: beige;
+font-weight: bold;
+}
+#comprar3{
+padding: 1em 3em;
+border-radius: 1em;
+background-color:rgba(229, 89, 52, 1) ;
+color: beige;
+font-weight: bold;
+}
+.imagen1{
+  border-radius: 1em;
+  width: 350px;
+  height: 300px;
+  margin-top: 10px;
+}
+.imagen2{
+  border-radius: 1em;
+  width: 350px;
+  height: 300px;
+  margin-top: 10px;
+}
+.imagen3{
+  border-radius: 1em;
+  width: 350px;
+  height: 300px;
+  margin-top: 10px;
+}
+#detalle{
+display: flex;
+justify-content: space-between;
+align-content: center;
 
+}
+#detalle > h3{
+  display: flex;
+  margin-left: 6em;
 
+}
+#mensaje{
+  display: flex;
+  justify-content: space-between;
+  align-items: center; 
+  
+}
+#mensaje > p{
+  padding: 15px;
+
+}
