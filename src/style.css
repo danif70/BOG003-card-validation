@@ -167,32 +167,7 @@ font-size: 30px;
   height: 300px;
  margin-top: 1em;
 }
-#detalle{
-display:flex;
-justify-content: space-between;
-align-content: center;
 
-}
-#detalle > h3{
-  display: flex;
-  margin-left: 6em;
-  width: 382px;
-  height: 320px;
-  margin-top: 10px;
-}
-.imagen2{
-  border-radius: 1em;
-  width: 382px;
-  height: 320px;
-  margin-top: 10px;
-}
-.imagen3{
-  border-radius: 1em;
-  width: 382px;
-  height: 320px;
-  margin-top: 10px;
-  margin-right: 1.5em;
-}
 .detalle{
 display: flex;
 justify-content:space-between;
@@ -200,6 +175,7 @@ font-family: "Nunito";
 font-size: 36px;
 font-weight: bold;
 text-align: center;
+align-content: center;
 align-items: center;
 color: rgba(5, 82, 76, 1);
 }
@@ -215,18 +191,46 @@ color: rgba(5, 82, 76, 1);
  margin-right: 6em;
  padding-left: 1em;
 }
+.precios{
+display: flex;
+justify-content:space-between;
+font-family: "Nunito";
+font-size: 36px;
+font-weight: bold;
+text-align: center;
+align-items: center;
+color: rgb(161, 161, 161);
+}
+
+.precioprogramacion{
+  margin-left: 4em;
+}
+.preciodesarrollo{
+  margin-right: 4em;
+  margin-left: 2em;
+  padding-left: 2.5em;
+}
+.preciodiseño{
+  margin-right: 6em;
+  padding-left: 1em;
+}
 #mensaje{
   display: flex;
   justify-content: space-between;
-  align-items: center; 
+  align-items: center;
+  font-family: "Nunito";
+  font-size: 24px;
+  color: #06524c;
 }
 #mensaje > p{
-  padding: 15px;
+  padding-right:5.5em;
+  padding-left:6em;
+  margin-top: 0px;
 }
 .pie_pagina >p{
   font-size: 1.5em;
   color: aliceblue;
-width: 100%;
+  width: 100%;
   background-color: rgba(5, 82, 76, 1);
   border-bottom:4em solid rgba(229, 89, 52, 1);
 }
@@ -303,10 +307,4 @@ margin-top: 1%;
   color: rgba(5, 82, 76, 1);
   
   
-}
-#mensaje > p{
-  padding-right:5.5em;
-  padding-left:6em;
-  margin-top: 0px;
-
 }
