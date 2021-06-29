@@ -167,19 +167,6 @@ font-size: 30px;
   height: 300px;
  margin-top: 1em;
 }
-#detalle{
-display:flex;
-justify-content: space-between;
-align-content: center;
-
-}
-#detalle > h3{
-  display: flex;
-  margin-left: 6em;
-  width: 382px;
-  height: 320px;
-  margin-top: 10px;
-}
 .imagen2{
   border-radius: 1em;
   width: 382px;
