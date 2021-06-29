@@ -5,6 +5,8 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Nunito" />
+  <link rel="stylesheet" type="text/css" href='http://fonts.googleapis.com/css?family=Alegreya+Sans+SC'>
   <link rel="stylesheet" href="style.css" />
   <title>Tarjeta de credito valida</title>
 </head>
@@ -12,9 +14,12 @@
 <body>
   <header>
     <img class="logo" src="./imagenes/LogoSample_ByTailorBrands(5).jpg" alt="logo">
-    <img class="redes" src="./imagenes/facebook.png" alt="facebook">
-    <img class="redes" src="./imagenes/instagram(1).png" alt="instagram">
-    <img class="redes" src="./imagenes/gorjeo.png" alt="twitter">
+    <a class= "redes" href= "https://www.twitter.com/">
+    <img class="redes" src="./imagenes/gorjeo.png" alt="twitter"></a>
+    <a class= "redes" href="https://www.instagram.com/">   
+    <img class="redes" src="./imagenes/instagram(1).png" alt="instagram"></a>
+    <a class="redes" href="https://www.facebook.com/">
+    <img class="redes" src="./imagenes/facebook.png" alt="facebook"></a>
   </header>
   <main>
     <span class="portada">
@@ -29,21 +34,21 @@
 
 
     <section id="info">
-      <p class="oportunidades"> Aprender a programar puede abrirte las puertas a un mejor empleo, nuevas áreas de
-        trabajo o
+      <p class="oportunidades"> Aprender a programar puede <br> abrirte las puertas a un mejor <br> empleo, nuevas áreas de
+        trabajo o <br>
         incluso a una nueva
-        forma de ver cómo funciona todo a nuestro alrededor.
-        Sin duda alguna, los beneficios que otorga aprender a programar no solo se reflejan en el mundo digital, sino
-        también en la solución de problemas de la vida cotidiana</p>
+        forma de ver <br> cómo funciona todo a nuestro<br>alrededor.<br>
+        Sin duda alguna, los beneficios<br> que otorga aprender a programar <br> no solo se reflejan en el mundo<br>digital, sino
+        también en la<br> solución de problemas de la vida <br> cotidiana.
+      </p>
 
-      <img id="descripcion" src="./imagenes/bruce-mars-AndE50aaHn4-unsplash.jpg" alt="Futuro">
+      <img id="descripcion" src="imagenes/hombresueterrojo.jpg" alt="Futuro">
     </section>
     <br>
 
     <section class="cursos">
-      <h5 id="cabecera">Nuestros Cursos</h5>
-      <h2 id="mision">Todos nuestros cursos se dictan en aulas virtuales ,con los mejores profesores y equipo de trabajo
-        que aseguran que tu aprendizaje sea efectivo.</h2>
+      <h5 id="cabecera">NUESTROS CURSOS</h5>
+      <h2 id="mision">Todos nuestros cursos se dictan <br> modernas aulas virtuales, con los<br> mejores profesores y equipos de<br> trabajo que aseguran que<br> tu aprendizaje sea efectivo.</h2>
       <span id="seleccion">
         <img class="imagen1" src="./imagenes/progbasica-SYTO3xs06fU-unsplash(1).jpg" alt="programacionbasica">
         <img class="imagen2" src="./imagenes/movil-unsplash.jpg" alt="movil">
@@ -51,32 +56,29 @@
       </span>
     
       <section>
-        <div id="detalle">
-          <h3>Programación Básica</h3>
-          <h3>Desarrollo Móvil</h3>
-          <h3>Diseño UX</h3><br>
+        <div class="detalle">
+          <p class= "tituloprogramacion">Programación Básica<br>COP 50.000,oo</p>
+          <p class="titulodesarrollo">Desarrollo Móvil<br>COP 90.000,oo</p>
+          <p class="titulodiseño">Diseño UX<br>COP 50.000,oo</p>
         </div>
-
         <div id="mensaje">
-          <p>(2 semanas- 40 hs)
-            Programa desde cero, domina Javascript, entiende HTML y aprende de algoritmos. Sí, desde cero. Entenderás la
-            lógica del código, cómo piensan los programadores y cómo programar juegos, proyectos y hasta robots y
+          <p>(2 semanas- 40 hs)<br>
+            Programa desde cero, domina<br>Javascript, entiende HTML y<br>aprende de algoritmos. Sí, desde<br>cero. Entenderás la
+            lógica del<br>código, cómo piensan los<br>programadores y cómo<br>programar juegos, proyectos y<br>hasta robots y
             electrónica.</p>
-          <p>(4 semanas - 80 hs.)
-            Aprende las habilidades y conceptos básicos para crear aplicaciones para dispositivos móviles. Aprenderás los
-            principios que deben inspirar la creación de estas aplicaciones, y así enfocar bien su diseño y programación
-            desde el principio</p>
+          <p>(4 semanas - 80 hs.)<br>
+            Aprende las habilidades y<br>conceptos básicos para crear<br>aplicaciones para dispositivos<br>móviles. Aprenderás los
+            <br>principios que deben inspirar la<br>creación de estas aplicaciones, y<br>así enfocar bien su diseño y<br>programación desde el principio</p>
           
-          <p>(2 semanas- 40 hs)
-            Aprenderás el proceso para crear productos que brindan experiencias significativas y relevantes a los usuarios.
-            Desde el diseño de todo el proceso de adquisición e integración del producto, hasta los aspectos de marca,
-            usabilidad y función.</p>
+          <p>(2 semanas- 40 hs)<br>
+            Aprenderás el proceso para crear<br>productos que brindan<br>experiencias significativas y<br>relevantes a los usuarios.
+            Desde<br>el diseño de todo el proceso de<br>adquisición e integración del<br>producto, hasta los aspectos de<br>marca, usabilidad y función.</p>
         </div>
       </section>
       <span id="compras">
-        <button id="comprar1" type="submit">COMPRAR</button>
-        <button id="comprar2" type="submit">COMPRAR</button>
-        <button id="comprar3" type="submit">COMPRAR</button>
+        <button onClick= "comprar('Programación Básica')" id="comprar1" type="submit">COMPRAR</button>
+        <button onClick= "comprar('Desarrollo Móvil')" id="comprar2" type="submit">COMPRAR</button>
+        <button onClick= "comprar('Diseño UX')" id="comprar3" type="submit">COMPRAR</button>
       </span>
     </section>
     <section id="validar">
