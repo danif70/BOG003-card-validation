@@ -153,8 +153,10 @@ font-size: 30px;
   border-radius: 1em;
   width: 382px;
   height: 320px;
-  margin-top: 10px;
+ margin-top: 10px;
 }
+
+
 .imagen2{
   border-radius: 1em;
   width: 382px;
@@ -193,17 +195,16 @@ color: rgba(5, 82, 76, 1);
 #mensaje{
   display: flex;
   justify-content: space-between;
-  align-items: center;
-  font-family: "Nunito";
+  align-items: center; 
+  font-family:"Nunito";
   font-size: 24px;
   text-align: center;
   color: rgba(5, 82, 76, 1);
-  
-  
 }
 #mensaje > p{
-  padding-right:5.5em;
-  padding-left:6em;
-  margin-top: 0px;
-
+  padding-right: 5.5em;
+  padding-left: 6em;
+  margin-top:0px;
 }
+
+

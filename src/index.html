@@ -6,7 +6,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Nunito" />
-  <link rel="stylesheet" type="text/css" href='http://fonts.googleapis.com/css?family=Alegreya+Sans+SC' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" type="text/css" href='http://fonts.googleapis.com/css?family=Alegreya+Sans+SC' />
   <link rel="stylesheet" href="style.css" />
   <title>Tarjeta de credito valida</title>
 </head>
@@ -57,7 +57,7 @@
     
       <section>
         <div class="detalle">
-          <p class= "tituloprogramacion">Programación Básica<br>COP 50.000,oo</p>
+          <p class= "tituloprogramacion">Programación Básica<br> COP 50.000,oo</p>
           <p class="titulodesarrollo">Desarrollo Móvil<br>COP 90.000,oo</p>
           <p class="titulodiseño">Diseño UX<br>COP 50.000,oo</p>
         </div>
@@ -80,10 +80,26 @@
         <button onClick= "comprar('Desarrollo Móvil')" id="comprar2" type="submit">COMPRAR</button>
         <button onClick= "comprar('Diseño UX')" id="comprar3" type="submit">COMPRAR</button>
       </span>
-    </section>
-  </main>
-  <footer>
-  </footer>
+      <img class="logo" src="./imagenes/LogoSample_ByTailorBrands(5).jpg" alt="logo">
+      <h1 id="cabesera2">Tu compra</h1>
+      <article>
+        <h3 id="Opcion">Tu seleccion</h3>
+        <h3 id="Precio">Monto</h3>
+      </article>
+      <span>
+        <img class="tarjeta" src="./imagenes/tarjeta.jpg" alt="tarjetas">
+      </span>
+      <input id="ingresarDigitos" type="text" required>
+      <div id="botones">
+        <button id="devolver" type="button">Volver</button>
+        <button id="Resultado" type="button">Aceptar</button>
+      </div>
+          </section>
+        </main>
+        <footer class="pie_pagina">
+      <p><strong>Dirección carrera 55a #67 - 89, bogotá 
+      teléfonos: 333765432 / 3334567890</strong> </p>
+        </footer>
   <script src="index.js" type="module"></script>
 </body>
 
