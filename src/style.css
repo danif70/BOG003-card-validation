@@ -114,22 +114,22 @@ font-weight: bold;
   border-radius: 1em;
   width: 350px;
   height: 300px;
-  margin-top: 10px;
+ margin-top: 1em;
 }
 .imagen2{
   border-radius: 1em;
   width: 350px;
   height: 300px;
-  margin-top: 10px;
+  margin-top: 1em;
 }
 .imagen3{
   border-radius: 1em;
   width: 350px;
   height: 300px;
-  margin-top: 10px;
+ margin-top: 1em;
 }
 #detalle{
-display: flex;
+display:flex;
 justify-content: space-between;
 align-content: center;
 
@@ -137,15 +137,88 @@ align-content: center;
 #detalle > h3{
   display: flex;
   margin-left: 6em;
-
 }
 #mensaje{
   display: flex;
   justify-content: space-between;
   align-items: center; 
-  
 }
 #mensaje > p{
   padding: 15px;
+}
+.pie_pagina >p{
+  font-size: 1.5em;
+  color: aliceblue;
+width: 100%;
+  background-color: rgba(5, 82, 76, 1);
+  border-bottom:4em solid rgba(229, 89, 52, 1);
+
+}
+.pie_pagina{
+  padding: 2em;
+
+}
+/* Segunda seccion para la validacion*/
+
+#cabesera2{
+  width: 100%;
+  height: 2.5em;
+font-size: 4em;
+color: aliceblue;
+padding-top: 0.2em;
+text-align: center;
+border-bottom:1em solid rgba(250, 121, 33, 1);
+background-color: rgba(229, 89, 52, 1);
+
+}
+#Opcion{
+font-size: 2.5em;
+margin: auto;
+text-align: center;
+padding-bottom: 0.5em;
+}
+#Precio{
+  font-size: 2.5em;
+  margin:auto;
+  text-align: center;
+  padding-bottom: 1em;
+}
+.tarjeta{
+  width: 14em;
+  height: 9em;
+  object-position: center;
+  display:block;
+ margin:auto;
+ padding-bottom: 1em;
+}
+#ingresarDigitos{
+width: 25em;
+height: 4em;
+display: block;
+margin: auto;
+}
+#botones{
+  padding-left: 6em;
+  padding-right: 5em;
+margin-left: 25%;
+margin-right: 20%;
+margin-top: 1%;
+}
+
+#devolver{
+  font-size: 2.5em;
+  border-radius: 0.5em;
+  width: 6em;
+  height: 2em;
+  background-color: rgba(5, 82, 76, 1);
+
+}
+
+#Resultado{
+  font-size: 2.5em;
+  border-radius: 0.5em;
+  width: 6em;
+  height: 2em;
+  background-color:rgba(229, 89, 52, 1) ;
 
 }
