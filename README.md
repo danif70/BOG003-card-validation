@@ -13,9 +13,11 @@ Este es el Homepage de la página
 
 ### Página de Pago
 
+![(Imagenes Web\Picture8.png)]
 
 ### Página de transacción exitosa
 
+![(Imagenes Web\Picture7.png)]
 
 ### Usuarios
 
