@@ -10,7 +10,7 @@ const errores2 = "El número de tarjeta no es válido";
 document.getElementById("comprar1").addEventListener("click", () => {
     document.getElementById("homepage").setAttribute("hidden", "");
     document.getElementById("paginapago").removeAttribute("hidden");
-    document.getElementById("opcion").innerHTML = seleccion + " Programacion Basica";
+    document.getElementById("opcion").innerHTML = seleccion + " Programación Básica";
     document.getElementById("precio").innerHTML = monto + " COP 50.000.oo";
   }),
   document.getElementById("comprar2").addEventListener("click", () => {
