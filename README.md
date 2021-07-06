@@ -6,18 +6,18 @@ Esta es una página de una empresa que dicta cursos de tecnología online y desd
 ### Homepage
 
 Este es el Homepage de la página
-![(Imagenes Web\Homepage1.png)]
-![(Imagenes Web\Homepage2.png)]
-![(Imagenes Web\Homepage3.png)]
-![(Imagenes Web\homepage4.png)]
+<img src="https://github.com/danif70/BOG003-card-validation/blob/master/Imagenes%20Web/Homepage1.png">
+<img src="https://github.com/danif70/BOG003-card-validation/blob/master/Imagenes%20Web/Homepage2.png">
+<img src="https://github.com/danif70/BOG003-card-validation/blob/master/Imagenes%20Web/Homepage3.png">
+<img src="https://github.com/danif70/BOG003-card-validation/blob/master/Imagenes%20Web/homepage4.png">
 
 ### Página de Pago
 
-![(Imagenes Web\Picture8.png)]
+<img src="https://github.com/danif70/BOG003-card-validation/blob/master/Imagenes%20Web/Picture8.png">
 
 ### Página de transacción exitosa
 
-![(Imagenes Web\Picture7.png)]
+<img src="https://github.com/danif70/BOG003-card-validation/blob/master/Imagenes%20Web/Picture7.png">
 
 ### Usuarios
 
@@ -26,7 +26,7 @@ Estos cursos ayudarán al usuario ya que al ser online la persona puede tomarlos
 
 ### Prototipo en papel
 
-![(Imagenes Web\IMG-20210618-WA0014[1].jpg)]
+<img src="https://github.com/danif70/BOG003-card-validation/blob/master/Imagenes%20Web/IMG-20210618-WA0014%5B1%5D.jpg">
 
 ### Mejoras a realizar
 
@@ -35,7 +35,8 @@ Detalles de CSS.
 
 ### Prototipo Final
 
-![(Imagenes Web\figma.png)]
+<img src="https://github.com/danif70/BOG003-card-validation/blob/master/Imagenes%20Web/figma.png">
+
 <https://www.figma.com/file/BK1P737n1YjQXcslccvZxh/Proptotipo2?node-id=0%3A1>
 
 
