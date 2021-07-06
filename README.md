@@ -3,9 +3,11 @@
 
 Esta es una página de una empresa que dicta cursos de tecnología online y desde ella se pueden adquirir sus cursos utilizando cualquier tarjeta de crédito válida.
 
+
 ### Homepage
 
 Este es el Homepage de la página
+
 <img src="https://github.com/danif70/BOG003-card-validation/blob/master/Imagenes%20Web/Homepage1.png">
 <img src="https://github.com/danif70/BOG003-card-validation/blob/master/Imagenes%20Web/Homepage2.png">
 <img src="https://github.com/danif70/BOG003-card-validation/blob/master/Imagenes%20Web/Homepage3.png">
