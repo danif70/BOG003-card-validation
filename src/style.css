@@ -197,13 +197,12 @@
   align-items: center;
   color: rgba(5, 82, 76, 1);
 }
-
-.detallesprecios {
+.detalleprecios {
   display: flex;
-  justify-content: space-between;
-  font-family: "Nunito";
-  font-size: 36px;
-  font-weight: bold;
+  justify-content: space-around;
+  font-family: "Alegreya Sans", sans-serif;
+  font-size: 32px;
+  font-weight:bolder;
   text-align: center;
   align-items: center;
   color: rgba(5, 82, 76, 1);

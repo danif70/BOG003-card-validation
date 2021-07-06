@@ -6,7 +6,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Nunito" />
-  <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Alegreya+Sans+SC" />
+  <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Alegreya+Sans+SC" />
   <link rel="stylesheet" href="style.css" />
   <title>TechTools Cursos Online</title>
   
@@ -31,6 +31,8 @@
         <p class="parrafo">Cursos Intensivos de Programación<br>
           ¡Tu punto de partida para un futuro brillante!</p>
       </section>
+
+
       <section id="info">
         <p class="oportunidades"> Aprender a programar puede <br> abrirte las puertas a un mejor <br> empleo, nuevas
           áreas de
@@ -41,9 +43,11 @@
           mundo<br>digital, sino
           también en la<br> solución de problemas de la vida <br> cotidiana.
         </p>
+
         <img id="descripcion" src="imagenes/hombresueterrojo.jpg" alt="Futuro">
       </section>
-      <br>
+
+
       <section class="cursos">
         <h5 id="cabecera">NUESTROS CURSOS</h5>
         <h2 id="mision">Todos nuestros cursos se dictan <br> modernas aulas virtuales, con los<br> mejores profesores y
@@ -53,16 +57,17 @@
           <img class="imagen2" src="./imagenes/movil-unsplash.jpg" alt="movil">
           <img class="imagen3" src="./imagenes/tinyux-unsplash.jpg" alt="ux">
         </span>
+
         <section>
           <div class="detalle">
-            <p class="tituloprogramacion">Programación Básica<br></p>
-            <p class="titulodesarrollo">Desarrollo Móvil<br></p>
-              <p class="titulodiseño">Diseño UX<br></p>
-            </div>
-              <div class="detallesprecios">
-                <p class="monto1">COP 50.000,oo</p>
-                <p class="monto2">COP 90.000,oo</p>
-                <p class="monto3">COP 50.000,oo</p>
+            <p class="tituloprogramacion">Programación Básica</p>
+            <p class="titulodesarrollo">Desarrollo Móvil</p>
+            <p class="titulodiseño">Diseño UX</p><br>
+          </div>
+          <div class="detalleprecios">
+            <p class="monto1">COP 50.000,oo</p>
+            <p class="monto2">COP 90.000,oo</p>
+            <p class="monto3">COP 50.000,oo</p>
           </div>
           <div id="mensaje">
             <p>(2 semanas- 40 hs)<br>
@@ -76,6 +81,7 @@
               Aprenderás los
               <br>principios que deben inspirar la<br>creación de estas aplicaciones, y<br>así enfocar bien su diseño
               y<br>programación desde el principio</p>
+
             <p>(2 semanas- 40 hs)<br>
               Aprenderás el proceso para crear<br>productos que brindan<br>experiencias significativas y<br>relevantes a
               los usuarios.
@@ -84,13 +90,13 @@
           </div>
         </section>
         <span id="compras">
-          <button id="comprar1" type="button">COMPRAR</button>
-          <button id="comprar2" type="button">COMPRAR</button>
-          <button id="comprar3" type="button">COMPRAR</button>
+          <button class="botoncompra" id="comprar1" type="button">COMPRAR</button>
+          <button class="botoncompra" id="comprar2" type="button">COMPRAR</button>
+          <button class="botoncompra" id="comprar3" type="button">COMPRAR</button>
         </span>
       </section>
-      </section>
-      <section id="paginapago" hidden >
+    </section>
+    <section id="paginapago" hidden>
       <h1 id="cabecera2">Tu compra</h1>
       <article id="selecciones">
         <h3 id="opcion">Tu selección:</h3>
@@ -102,24 +108,22 @@
       <input id="ingresardigitos" type="text" placeholder="Ingrese aquí los dígitos de su tarjeta de crédito" required hidden>
       <div id="mensajeserrores" ></div>
       <div id="botones">
-        <button id="devolver" type="button">Volver</button>
+        <button id="devolver" type="reset">Volver</button>
         <button id="resultado" type="button">Aceptar</button>
       </div>
     </section>
     <section id="paginaresultado" hidden>
       <div>
-      <img id="comprobado" src="./imagenes/comprobado.png" alt="exito">
-    </div>
+        <img id="comprobado" src="./imagenes/comprobado.png" alt="exito">
+      </div>
       <h3 id="exito">¡Transacción Exitosa!</h3>
-      <div id="verificado">con la Tarjeta:  </div>
+      <div id="verificado">Con la tarjeta: </div>
       <button id="regresar" type="reset">Volver</button>
     </section>
   </main>
   <footer class="pie_pagina">
-    <p><strong>Dirección carrera 55a #67 - 89, bogotá
-        teléfonos: 333765432 / 3334567890</strong> </p>
+    <p><strong>Dirección: Carrera 55a #67 - 89, Bogotá  Teléfonos: 333765432 / 3334567890</strong> </p>
   </footer>
   <script src="index.js" type="module"></script>
-</body>
-
+</body> 
 </html>
