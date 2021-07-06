@@ -15,24 +15,22 @@ const validator = {
       }
     }
     let sumatoria = par + impar;
-  if (sumatoria % 10 == 0) {
+    if (sumatoria % 10 == 0) {
       return true;
-    } 
-  else {
+    } else {
       return false;
     }
   },
 
   maskify: (creditCardNumber) => {
-     let c = creditCardNumber.length;
-     let mascara = "";
-     for(let i = 0; i< c -4; i++)
-     {
-         mascara += "#";
-     }
-     let numeroenmascarado = mascara + creditCardNumber.substring(c - 4, c);
-     return numeroenmascarado
- }
-  
+    let c = creditCardNumber.length;
+    let mascara = "";
+    for (let i = 0; i < c - 4; i++) {
+      mascara += "#";
+    }
+    let numeroenmascarado = mascara + creditCardNumber.substring(c - 4, c);
+    return numeroenmascarado
+  }
+
 };
 export default validator;
